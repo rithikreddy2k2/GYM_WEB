@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    border: border-box;
+    font-family: 'Pacifico', cursive;
+    color: #777777;
+    background-image: url("");
+    background-blend-mode: overlay;
+    padding: 0;
+    background-image: url("Contact_background.jpg");
+    background-size: cover;
+    
+
+}
+
+
+.navigation{
+    display:inline-block;
+    position: absolute;
+    background-image: url("contact_page_nav_image.jpg");
+    background-blend-mode: multiply;
+    background-size: contain;
+    border-radius: 20%;
+    left: -40%;
+    top: 76%;
+    animation:navig 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+
+
+}
+@keyframes navig{
+    0%{
+        transform: rotateX(-180deg);
+        
+    }
+
+    50%{
+        transform: rotateX(180deg);
+        left: 40%;
+    }
+
+    100%{
+        transform: rotateX(0deg);
+        left: 40%;
+        
+    }
+   
+
+
+}
+
+
+.navigation li{
+    display: inline-block;
+    margin: 0px 20px;
+    border: 3px solid grey;
+    padding: 0.5em 0.1em ;
+    cursor: pointer;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 0.7em;
+    color: rgba(0,0,0,0);
+    background-image: url("contact_li.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    
+}
+
+
+.navigation a:hover{
+    color: black;
+    background-color: white; 
+    
+}
+.linked_in{
+    position: absolute;
+    width: 0;
+    height:0;
+    border-radius: 50%;
+    animation: linked_in 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+    
+}
+@keyframes linked_in{
+    0%{
+        width: .5%;
+        height:1%;
+        top: 90%;
+        left: 37%;
+    }
+
+   
+
+    100%{
+        width: 4.3%;
+        height:9.1%;
+        top: 90%;
+        left: 35%;
+    }
+}
+.insta{
+    position: absolute;
+    width: 0;
+    height:0;
+    border-radius: 50%;
+    animation: insta 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+    
+
+}
+@keyframes insta{
+    0%{
+        width: .5%;
+        height:1%;
+        left: 69.5%;
+        top: 70%;
+
+    }
+
+    100%{
+         width: 4.3%;
+         height:9%;
+         left: 68%;
+         top: 68%;
+    }
+}
+.fb{
+    position: absolute;
+    width: 0;
+    height:0;
+    border-radius: 50%;
+    animation: fb 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+@keyframes fb{
+    0%{
+        width: .5%;
+        height:1%;
+        left: 22%;
+        top: 67%;
+
+    }
+
+    100%{
+         width: 4%;
+         height:8.7%;
+         left: 20%;
+         top: 67.5%;
+    }
+}
+.mail{
+    position: absolute;
+    width: 0;
+    height:0;
+    border-radius: 50%;
+    animation: mail 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+}
+@keyframes mail{
+    0%{
+        width: .5%;
+        height:1%;
+        left: 80%;
+        top: 59.5%;
+
+    }
+
+    100%{
+         width: 4.3%;
+         height:9.1%;
+         left: 79%;
+         top: 59.5%;
+    }
+}
+
+.whats_app{
+    position: absolute;
+    width: 0;
+    height:0;
+    border-radius: 32%;
+    left: 25%;
+    animation: whats_app 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 16s;
+}
+@keyframes whats_app{
+    0%{
+        width: .5%;
+        height:1%;
+        left: 17.5%;
+        top: 50%;
+
+    }
+
+    100%{
+         width: 4.1%;
+         height:9%;
+         left: 16%;
+         top: 50.5%;
+    }
+}   
+
+h1{
+    background-color: white;
+    background-blend-mode: overlay;
+    text-align: center;
+    border: 3px solid #777777;
+    position: absolute;
+}
+.comment1{
+    top: -30%;
+    left: 20%;
+    width: 7%;
+    height: 8%;
+    animation: c1 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+  
+}
+@keyframes c1{
+    0%{
+        top: -30%;
+        left: 20%;
+        transform: skewY(10deg);
+
+    }
+
+    50%{
+            top: 30%;
+            left: 50%;
+            transform: skewY(0deg);          
+    }
+
+    100%{
+            top: -30%;
+            left: 80%;
+            transform: skewY(-10deg);
+    }
+}
+.comment2{
+    width: 20%;
+    height: 8%;
+    left: 80%;
+    top: -30%;
+    animation: c2 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+@keyframes c2{
+    0%{
+        left: 80%;
+        top: -30%;
+        transform: skewY(-10deg);
+
+    }
+
+    50%{
+            left: 40%;
+            top: 30%;
+            transform: skewY(0deg);          
+    }
+
+    100%{
+            left: 20%;
+            top: -30%;
+            transform: skewY(10deg);
+    }
+}
+.comment3{
+    width: 25%;
+    height: 8%;
+    top: -30%;
+    left: 10%;
+    animation: c3 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+@keyframes c3{
+    0%{
+        top: -30%;
+        left: 10%;
+        transform: skewY(10deg);
+
+    }
+
+    50%{
+            top: 30%;
+            left: 40%;
+            transform: skewY(0deg);          
+    }
+
+    100%{
+            top: -30%;
+            left: 80%;
+            transform: skewY(-10deg);
+    }
+
+}
+.comment4{
+    width: 20%;
+    height: 8%;
+    animation: c4 4s;
+    animation-fill-mode: forwards;
+    animation-delay: 13s;
+    left: 80%;
+    top: -30%;
+}
+@keyframes c4{
+    0%{
+        left: 80%;
+        top: -30%;
+        transform: skewY(-10deg);
+
+    }
+
+    50%{
+            left: 40%;
+            top: 30%;
+            transform: skewY(0deg);          
+    }
+
+    100%{
+            left: 20%;
+            top: -30%;
+            transform: skewY(10deg);
+    }
+}

@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    background-image: url(cover_page_background.jpg);
+    font-family: 'Pacifico', cursive;
+    
+}
+
+.logo2{
+    animation: logo 2s;
+    border-radius: 50%;
+}
+@keyframes logo{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.main{
+    position: absolute;
+    height: 70px;
+    width: 140px;
+    font-size: 2em;
+    background-blend-mode: soft-light;
+    border: 5px solid #2E5090;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    padding-top: 13px;
+    left: 50%;
+    border-radius: 20%;
+    padding-bottom: 0px;
+   
+}
+
+.main a:hover{
+    background-color:white;
+    color: black;
+    background-blend-mode: overlay;
+    padding: 0.4em;
+    padding-bottom: 0.45em;
+    border-radius: 18%;
+
+}
+
+
+.main a{
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    color: white;
+
+}
+
+.home{
+    left: -40%;
+    animation: home_button 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+    
+}
+@keyframes home_button{
+    0%{
+        left: -20%;
+        top: 40%;
+        transform: rotateY(360deg);
+    }
+
+    25%{
+        left: 10%;
+        top:20% ;
+        transform: rotateY(-360deg);
+    }
+
+    50%{
+        left: 20%;
+        top: 35%;
+        transform: rotateY(360deg);
+
+    }
+
+    75%{
+        left: 30%;
+        transform: rotateY(-360deg);
+        top: 20%;
+
+    }
+
+    100%{
+        left: 40%;
+        top: 20%;
+        transform: rotateY(360deg);
+        
+
+    }
+}
+.about{
+    left: -40%;
+    padding-right: 15px;
+    animation: about_button 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+    
+    
+}
+@keyframes about_button{
+        0%{
+            left: -20%;
+            top: 40%;
+            transform: rotateY(360deg)
+
+        }
+
+        25%{
+            left: 10%;
+            transform: rotateY(-360deg);
+            top:66% ;
+        }
+
+        50%{
+            left: 19%;
+            transform: rotateY(360deg);
+            top: 50%;
+        }
+
+        75%{
+            left: 30%;
+            transform: rotateY(-360deg);
+            top: 66%;
+        }
+
+        100%{
+                left: 40%;
+                top: 66%;
+                transform: rotateY(360deg)
+                
+        }
+
+}
+.Contact{
+    left: -40%;
+    padding-right: 7px ;
+    animation: contact_button 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+    width: 185px;
+    
+}
+@keyframes contact_button{
+    0%{
+        left: -20%;
+        top: 43%;
+        transform: rotateY(360deg);
+    }
+
+    25%{
+        left: 15%;
+        top: 43%;
+        transform: rotateY(-360deg);
+    }
+    50%{
+        left: 24%;
+        top: 20%;
+        transform: rotateY(360deg);
+    }
+
+    75%{
+            left: 54%;
+            top: 20%;
+            transform: rotateY(-360deg);
+    }
+
+    100%{
+            left: 68%;
+            top:43% ;
+            transform: rotateY(360deg);
+            
+    }
+
+}
+
+.Contact a:hover{
+    background-color:white;
+    color: black;
+    background-blend-mode: overlay;
+    padding: 0.4em;
+    border-radius: 17%;
+
+}
+
+.h1class{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    background-blend-mode: overlay;
+    left:-55%;
+    top: 40%;
+    font-size: 50px;
+    border: 5px solid #2E5090;
+    cursor: pointer;
+    animation: h1_ 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    
+    
+}
+@keyframes h1_{
+    0%{
+        left: -55%;
+        transform: rotateY(-360deg); 
+        
+    }
+   
+    100%{
+        left: 30%;
+        transform: rotateY(360deg);
+        
+    }
+}
+
+
+.h1class:hover{
+    background-color: rgba(255,255, 255, 0.2);
+}
+.h1class:active{
+    animation: h1_clicked 1s ;
+    animation-fill-mode: forwards;
+
+}
+@keyframes h1_clicked{
+    0%{
+        transform: rotateY(0deg);
+        
+    }
+
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+
+}
+
+.h3_class{
+    position: absolute;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    color: white;
+    background-blend-mode: overlay;
+    top: 60%;
+    left: -60%;
+    font-size: 2em;
+    border: 5px solid #2E5090;
+    cursor: pointer;
+    animation: h3_ 5s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+@keyframes h3_{
+    0%{
+        left: -33%;
+        top: 40%;
+        
+    }
+    25%{
+        left: 16%;
+        transform: rotateY(-360deg);
+        top: 60%;
+    }
+
+    50%{
+        transform: rotateY(360deg);
+        left: 33%;
+    }
+    75%{
+        transform: rotateY(-360deg);
+        top:20% ;
+        left: 33%;
+        
+    }
+    100%{
+        transform: rotateY(360deg);
+        top: -100%;
+        left: 33%;
+        
+
+    }
+
+}
+
+.h3_class:hover{
+    background-color: rgba(255,255, 255, 0.2);
+}
+
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+  
+
+    @keyframes home_button{
+        0%{
+            left: -20%;
+            top: 40%;
+            transform: rotateY(360deg);
+        }
+    
+        25%{
+            left: 10%;
+            top:20% ;
+            transform: rotateY(-360deg);
+        }
+    
+        50%{
+            left: 16%;
+            top: 35%;
+            transform: rotateY(360deg);
+    
+        }
+    
+        75%{
+            left: 30%;
+            transform: rotateY(-360deg);
+            top: 20%;
+    
+        }
+    
+        100%{
+            left: 40%;
+            top: 20%;
+            transform: rotateY(360deg);
+            
+    
+        }
+    }
+  
+
+  @keyframes about_button{
+    0%{
+        left: -20%;
+        top: 40%;
+        transform: rotateY(360deg)
+
+    }
+
+    25%{
+        left: 10%;
+        transform: rotateY(-360deg);
+        top:66% ;
+    }
+
+    50%{
+        left: 16%;
+        transform: rotateY(360deg);
+        top: 50%;
+    }
+
+    75%{
+        left: 30%;
+        transform: rotateY(-360deg);
+        top: 66%;
+    }
+
+    100%{
+            left: 40%;
+            top: 66%;
+            transform: rotateY(360deg)
+            
+    }
+  }
+
+  @keyframes contact_button{
+    0%{
+        left: -20%;
+        top: 43%;
+        transform: rotateY(360deg);
+    }
+
+    25%{
+        left: 13%;
+        top: 43%;
+        transform: rotateY(-360deg);
+    }
+    50%{
+        left: 22%;
+        top: 20%;
+        transform: rotateY(360deg);
+    }
+
+    75%{
+            left: 55%;
+            top: 20%;
+            transform: rotateY(-360deg);
+    }
+
+    100%{
+            left: 73%;
+            top:43% ;
+            transform: rotateY(360deg);
+            
+    }
+
+}
+
+
+}
+  
+  /* 
+    ##Device = Tablets, Ipads ()
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px){
+    
+    /* CSS */
+
+    @keyframes home_button{
+        0%{
+            left: -20%;
+            top: 40%;
+            transform: rotateY(360deg);
+        }
+    
+        25%{
+            left: 10%;
+            top:20% ;
+            transform: rotateY(-360deg);
+        }
+    
+        50%{
+            left: 13%;
+            top: 35%;
+            transform: rotateY(360deg);
+    
+        }
+    
+        75%{
+            left: 30%;
+            transform: rotateY(-360deg);
+            top: 20%;
+    
+        }
+    
+        100%{
+            left: 40%;
+            top: 20%;
+            transform: rotateY(360deg);
+            
+    
+        }
+    }
+  
+
+  @keyframes about_button{
+    0%{
+        left: -20%;
+        top: 40%;
+        transform: rotateY(360deg)
+
+    }
+
+    25%{
+        left: 10%;
+        transform: rotateY(-360deg);
+        top:66% ;
+    }
+
+    50%{
+        left: 12%;
+        transform: rotateY(360deg);
+        top: 50%;
+    }
+
+    75%{
+        left: 30%;
+        transform: rotateY(-360deg);
+        top: 66%;
+    }
+
+    100%{
+            left: 40%;
+            top: 66%;
+            transform: rotateY(360deg)
+            
+    }
+  }
+
+  @keyframes contact_button{
+    0%{
+        left: -20%;
+        top: 43%;
+        transform: rotateY(360deg);
+    }
+
+    25%{
+        left: 8%;
+        top: 43%;
+        transform: rotateY(-360deg);
+    }
+    50%{
+        left: 16%;
+        top: 20%;
+        transform: rotateY(360deg);
+    }
+
+    75%{
+            left: 60%;
+            top: 20%;
+            transform: rotateY(-360deg);
+    }
+
+    100%{
+            left: 72%;
+            top:66% ;
+            transform: rotateY(360deg);
+            
+    }
+
+}
+
+    
+}
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    @keyframes home_button{
+        0%{
+            left: -20%;
+            top: 40%;
+            transform: rotateY(360deg);
+        }
+    
+        25%{
+            left: 10%;
+            top:20% ;
+            transform: rotateY(-360deg);
+        }
+    
+        50%{
+            left: 13%;
+            top: 35%;
+            transform: rotateY(360deg);
+    
+        }
+    
+        75%{
+            left: 30%;
+            transform: rotateY(-360deg);
+            top: 20%;
+    
+        }
+    
+        100%{
+            left: 40%;
+            top: 20%;
+            transform: rotateY(360deg);
+            
+    
+        }
+    }
+  
+
+  @keyframes about_button{
+    0%{
+        left: -20%;
+        top: 40%;
+        transform: rotateY(360deg)
+
+    }
+
+    25%{
+        left: 10%;
+        transform: rotateY(-360deg);
+        top:66% ;
+    }
+
+    50%{
+        left: 12%;
+        transform: rotateY(360deg);
+        top: 50%;
+    }
+
+    75%{
+        left: 30%;
+        transform: rotateY(-360deg);
+        top: 66%;
+    }
+
+    100%{
+            left: 40%;
+            top: 66%;
+            transform: rotateY(360deg)
+            
+    }
+  }
+
+  @keyframes contact_button{
+    0%{
+        left: -20%;
+        top: 43%;
+        transform: rotateY(360deg);
+    }
+
+    25%{
+        left: 8%;
+        top: 43%;
+        transform: rotateY(-360deg);
+    }
+    50%{
+        left: 16%;
+        top: 20%;
+        transform: rotateY(360deg);
+    }
+
+    75%{
+            left: 60%;
+            top: 20%;
+            transform: rotateY(-360deg);
+    }
+
+    100%{
+            left: 72%;
+            top:66% ;
+            transform: rotateY(360deg);
+            
+    }
+
+}
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    @keyframes home_button{
+        0%{
+            left: -20%;
+            top: 40%;
+            transform: rotateY(360deg);
+        }
+    
+        25%{
+            left: 10%;
+            top:30% ;
+            transform: rotateY(-360deg);
+        }
+    
+        50%{
+            left: 13%;
+            top: 40%;
+            transform: rotateY(360deg);
+    
+        }
+    
+        75%{
+            left: 30%;
+            transform: rotateY(-360deg);
+            top: 30%;
+    
+        }
+    
+        100%{
+            left: 40%;
+            top: 30%;
+            transform: rotateY(360deg);
+            
+    
+        }
+    }
+  
+
+  @keyframes about_button{
+    0%{
+        left: -20%;
+        top: 40%;
+        transform: rotateY(360deg)
+
+    }
+
+    25%{
+        left: 10%;
+        transform: rotateY(-360deg);
+        top:56% ;
+    }
+
+    50%{
+        left: 12%;
+        transform: rotateY(360deg);
+        top: 50%;
+    }
+
+    75%{
+        left: 30%;
+        transform: rotateY(-360deg);
+        top: 56%;
+    }
+
+    100%{
+            left: 40%;
+            top: 56%;
+            transform: rotateY(360deg)
+            
+    }
+  }
+
+  @keyframes contact_button{
+    0%{
+        left: -20%;
+        top: 43%;
+        transform: rotateY(360deg);
+    }
+
+    25%{
+        left: 8%;
+        top: 43%;
+        transform: rotateY(-360deg);
+    }
+    50%{
+        left: 16%;
+        top: 30%;
+        transform: rotateY(360deg);
+    }
+
+    75%{
+            left: 60%;
+            top: 30%;
+            transform: rotateY(-360deg);
+    }
+
+    100%{
+            left: 72%;
+            top:56% ;
+            transform: rotateY(360deg);
+            
+    }
+
+}
+  }
